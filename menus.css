@@ -1,0 +1,96 @@
+/* body {background-color:252525; color:ebebeb; font-family: sans-serif} */
+body {background-color:#FAFAFA; color:000000; font-family: sans-serif}
+/*a {color:FF8000 } /*93F572 */*/
+a {color:000000 } /*93F572 */
+.myfont {font-family: helvetica; font-size: 24pt}
+
+
+        #wrapper { width: 300px; margin: 0 auto; }
+        a:link
+        {
+            /*color: #FF8000;*/
+            text-decoration: none;
+        }
+        a:visited
+        {
+            /*color: #FF8000;*/
+        }
+        a:hover
+        {
+            color: #0000FF; /*#ffe39f;*/
+			font-weight: bold;
+            text-decoration: underline;
+        }
+        a:active
+        {
+            color: #0000FF /*#990033;*/
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #product-header
+        {
+            background: no-repeat center;
+            height: 28px;
+        }
+        #product-footer
+        {
+            background: no-repeat center;
+            height: 28px;
+        }
+        ul#product
+        {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            background: repeat-y center;
+        }
+        ul#product li span
+        {
+		padding-left: 2em;
+        }
+        ul#product li.trigger
+        {
+            padding: .4em;
+        }
+        /* ul#product hover menu position override */
+        ul#product .trigger ul.menu
+        {
+            margin-top: 1.2em;
+            margin-left: 5em;
+        }
+        /* Boxes around the pop-up messages for papers abstracts */
+        .trigger ul.menu
+        {
+            display: none;
+            position: absolute;
+            margin: 0;
+            padding: .4em;
+            list-style: none;
+            background: repeat-y center;
+            background-color: #E0E0E0; /*C04040;*/ 
+            border: solid 1px #ccc;
+            width: 30em;
+        }
+        .trigger ul.menu li
+        {
+            padding: .1em .5em;
+        }
+        .trigger ul.menu li a
+        {
+            display: block;
+        }
+        .trigger:hover
+        {
+            background: no-repeat center;
+            /*background-color: 252525;*/
+        }
+        .trigger:hover ul.menu
+        {
+            display: block;
+        }
+button {
+  /*position: absolute;*/
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
